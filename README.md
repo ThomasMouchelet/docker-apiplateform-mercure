@@ -49,7 +49,10 @@ With CLI
 symfony serve
 ```
 
-# With Postman
+Controller page :
+> https://127.0.0.1:8000/recipe/new
+
+# Postman request
 
 ### URL : http://127.0.0.1:8001/.well-known/mercure
 ### Methode : POST
