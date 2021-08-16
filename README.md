@@ -54,15 +54,14 @@ Controller page :
 
 # Postman request
 
-### URL : http://127.0.0.1:8001/.well-known/mercure
+### URL : http://127.0.0.1:8000/api/recipes
 ### Methode : POST
-### Auth : Bearer Token 
-> eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZXJjdXJlIjp7InB1Ymxpc2giOlsiKiJdfX0.igEPFS-VblsI_at_-WbC7s1nQETOZspaNuwVl3gCQ5M
-
-### Body : x-www-form-urlencoded
-| topic | https://127.0.0.1:8000/api/recipes/1 |
-|-------|--------------------------------------|
-| data  | FROM POSTMAN                         |
+### Body : JSON
+```
+{
+    "title": "FROM POSTMAN"
+}
+```
 
 # KILL CONTAINERS
 ```
