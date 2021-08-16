@@ -14,7 +14,6 @@ use Symfony\Component\Routing\Annotation\Route;
 class AppController extends AbstractController
 {
     #[Route('/recipe/new', name: 'recipe.new')]
-    #[Route('/recipe/{id}', name: 'recipe.create')]
     public function index(Recipe $recipe = null, Request $request, RecipeRepository $repo): Response
     {
         if(!$recipe){
