@@ -4,9 +4,27 @@
 - phpmyadmin
 - mercure
 
+# API
+
+- Documentation url : https://127.0.0.1:8000/api
+- Collection : Recipe
+- Method Allow : POST, GET, PUT, DELETE, PATH
+- Ressource URL : /api/recipes
+
+```
+"hydra:member": [
+    {
+      "@context": "string",
+      "@id": "string",
+      "@type": "string",
+      "id": 0,
+      "title": "string"
+    }
+```
+
 # GET STARTED
 
-Install dependancies
+Install dependencies
 ```
 composer install
 ```
@@ -31,6 +49,7 @@ With CLI
 symfony serve
 ```
 
+# Entr
 
 # With Postman
 
